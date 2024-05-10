@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">May10_LabTask_2</string>
+    <string name="example_ui_excercise_linearlayout" />
+    <string name="cockies">Cockies</string>
+    <string name="cookies">cookies</string>
+    <string name="Cookies">Cookies</string>
+    <string name="i_m_so_hungry">I\'m so hungry</string>
+    <string name="eat_cookie">EAT COOKIE</string>
+</resources>

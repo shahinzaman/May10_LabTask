@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="30sp"
+        android:text="@string/cookies"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <!-- Image View for the hungry/full state -->
+    <ImageView
+        android:id="@+id/imageViewCookie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/hungry"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutCookie"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#bb99ff">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="65dp" />
+
+        <TextView
+            android:id="@+id/textViewHungry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_m_so_hungry"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/white"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <Button
+            android:id="@+id/buttonEatCookie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eat_cookie"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="#bfbfbf"
+            android:onClick="onEatCookieClicked" />
+
+    </LinearLayout>
+
+</LinearLayout>

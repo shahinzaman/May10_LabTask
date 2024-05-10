@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">May10_LabTask_1</string>
+    <string name="android">Android</string>
+    <string name="name">NAME</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="password">PASSWORD</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="reset">RESET</string>
+</resources>
